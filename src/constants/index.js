@@ -209,7 +209,7 @@ const testimonials = [
     name: "Rajnikant",
     mentions: "@rajnikant",
     review:
-      "It was great working with you on the MERN stack project. The way you structured the backend and managed state with Redux made everything super efficient. Respect, bro!",
+      "Really impressive work on the MERN stack project! The way you structured the backend and managed state with Redux, Respect bro!",
     imgPath: "/images/client1.png",
   },
   {
