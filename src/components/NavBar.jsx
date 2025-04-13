@@ -42,11 +42,24 @@ const NavBar = () => {
           </ul>
         </nav>
 
-        <a href="#contact" className="contact-btn group">
-          <div className="inner">
-            <span>Contact me</span>
-          </div>
-        </a>
+        <div className="flex gap-2">
+          <a
+            href="https://drive.google.com/file/d/1l4R_tZgCyOmDM-OoktXcuoarC4ZKRL_o/view"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="contact-btn group"
+          >
+            <div className="inner">
+              <span>Resume</span>
+            </div>
+          </a>
+
+          <a href="#contact" className="contact-btn group">
+            <div className="inner">
+              <span>Contact me</span>
+            </div>
+          </a>
+        </div>
       </div>
     </header>
   );
