@@ -5,6 +5,7 @@ import { navLinks } from "../constants";
 const NavBar = () => {
   // track if the user has scrolled down the page
   const [scrolled, setScrolled] = useState(false);
+  const resumeLink = import.meta.env.VITE_GOOGLE_DRIVE_LINK;
 
   useEffect(() => {
     // create an event listener for when the user scrolls
@@ -44,7 +45,7 @@ const NavBar = () => {
 
         <div className="flex gap-2">
           <a
-            href="https://drive.google.com/file/d/1l4R_tZgCyOmDM-OoktXcuoarC4ZKRL_o/view"
+            href={resumeLink}
             target="_blank"
             rel="noopener noreferrer"
             className="contact-btn group"
