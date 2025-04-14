@@ -50,9 +50,20 @@ const AppShowcase = () => {
           {/* Memories Project */}
           <div className="first-project-wrapper">
             <div className="image-wrapper">
-              <img src="/images/memories.png" alt="Memories App Interface" />
+              <a href="https://shivalik-memories.netlify.app">
+                <img src="/images/memories.png" alt="Memories App Interface" />
+              </a>
             </div>
             <div className="text-content">
+              <h3>
+                Live Site:{" "}
+                <a
+                  className="text-blue-400"
+                  href="https://shivalik-memories.netlify.app"
+                >
+                  Click here to Checkout.
+                </a>
+              </h3>
               <h2>Memories - A Full-Stack Social Sharing Platform</h2>
               <p className="text-white-50 md:text-xl">
                 Built with the MERN stack (MongoDB, Express, React, Node).
